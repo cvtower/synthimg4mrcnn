@@ -6,6 +6,7 @@ However, for specific projects, the categories in MS-COCO might not be the targe
 1. usually, we dont have sufficient annotated samples like MS-COCO for certain project;
 2. we dont have sufficient computation power to launch training from scratch;
 3. MS-COCO might contains only part of our target classes.
+
 To solve these problem, we develop a solution.
 
 This repo provide a synth image and corresponding COCO format json file generator, which we found helps a lot to prevent over-fitting.
